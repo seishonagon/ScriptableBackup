@@ -109,10 +109,10 @@ function createMissionTable(table, expert)
     let cell2 = row.addText(
       m.title,
       m.number)
-    cell2.widthWeight = 80
-    let cell3 = row.addText(m.ofLink)
-    cell3.widthWeight = 15
-    cell3.leftAligned()
+    cell2.widthWeight = 95
+//     let cell3 = row.addText(m.ofLink)
+//     cell3.widthWeight = 15
+//     cell3.leftAligned()
     row.onSelect = (idx) => {
       let eInd = xp.getIdxFmRef(expertReference)
       let mInd = idx - 1
